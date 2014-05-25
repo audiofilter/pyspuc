@@ -1,7 +1,7 @@
 pyspuc
 ======
 
-Python extensions for spuc library
+Python extensions for spuc library (github.com/audiofilter/spuc)
 
 Requirements:
 
