@@ -6,8 +6,8 @@ install:
   - sudo apt-get update -qq
   - sudo apt-get install cmake libboost-dev
 before_script:
-  - git clone https://github.com/audiofilter/spuc.git
-  - cd spuc
+  - git clone https://github.com/audiofilter/spuclib.git
+  - cd spuclib
   - mkdir build
   - cd build
   - cmake ..
