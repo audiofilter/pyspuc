@@ -5,15 +5,9 @@ ENDIF()
 PROJECT("spuc_extensions")
 Message("project spuc_extensions")
 
-#SET(CMAKE_C_COMPILER "/usr/bin/clang")
-#SET(CMAKE_CXX_COMPILER "/usr/bin/clang++")
-
 IF(${CMAKE_SYSTEM_NAME} MATCHES "Darwin")
 set(CMAKE_CXX_FLAGS "-Wall -std=c++11 ")
 ENDIF()
-
-#set(CMAKE_CXX_LINK_FLAGS "-L$ENV{SYSTEMC_HOME}/lib-linux")
-SET(EXTS_1 agc)
 
 SET(EXTS agc
 allpass_1aq1
