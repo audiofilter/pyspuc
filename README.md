@@ -29,5 +29,5 @@ Requirements:
 		make
 
 
-![Demo Graph from matplotlib example](graphp.png "Demo Example output")
+![Demo Graph from matplotlib example](graph.png "Demo Example output")
 
