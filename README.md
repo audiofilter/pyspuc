@@ -3,8 +3,7 @@ pyspuc
 
 Python extensions for spuc library (github.com/audiofilter/spuclib) using boost python
 
-*Warning*
-Although this builds OK on both Mac and Linux there is currently some issue using the modules in python - to be resolved
+This builds OK on both Mac and Linux 
 
 ### Build status - Linux, clang - Automated Travis Build
 [![Build Status](https://travis-ci.org/audiofilter/pyspuc.png)](https://travis-ci.org/audiofilter/pyspuc)
@@ -29,4 +28,6 @@ Requirements:
 		cmake ..
 		make
 
+
+![Demo Graph from matplotlib example](graphp.png "Demo Example output")
 
