@@ -3,9 +3,9 @@ pyspuc
 
 Python extensions for spuc library (github.com/audiofilter/spuclib) using boost python
 
-This builds OK on both Mac and Linux 
+This builds OK on Mac (and Linux with newer GCCs, or older versions of files with older GCC)
 
-### Build status - Linux, clang - Automated Travis Build
+### Build status - Mac OSX, clang - Automated Travis Build
 [![Build Status](https://travis-ci.org/audiofilter/pyspuc.png)](https://travis-ci.org/audiofilter/pyspuc)
 
 
