@@ -17,6 +17,7 @@ Requirements:
 		spuclib
 
 		boost/python/cmake install via Homebrew or Apt-get
+		(for Homebrew boost-python install now boost-python and separate from boost)
 
 		# this builds needed libraries for linking
 		git clone https://github.com/audiofilter/spuclib.git
