@@ -1,8 +1,14 @@
+os:
+  - osx
 language: 
-  - cpp 
+  - objective-c
+compiler:
+  - clang
+before_install:
+  - brew update
 install:
-  - sudo apt-get update -qq
-  - sudo apt-get install cmake libboost-dev
+  - brew install cmake
+  - brew install boost-python
 before_script:
   - git clone https://github.com/audiofilter/spuclib.git
   - cd spuclib
